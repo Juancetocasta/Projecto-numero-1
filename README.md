@@ -11,7 +11,7 @@ Este proyecto es una página web que muestra mi CV en línea. Está desarrollado
 
 ## Uso
 
-Para ver mi CV en línea, simplemente accede a la siguiente URL: [Enlace a mi CV](https://juancetocasta.github.io/Projecto-numero-1/)
+Para ver mi CV en línea, simplemente accede a la siguiente URL: [Enlace a mi CV]([https://juancetocasta.github.io/Projecto-numero-1/])
 
 ## Contribuir
 
