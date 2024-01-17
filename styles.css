@@ -65,3 +65,33 @@ ul {
   margin-bottom: 10px;
   border-radius: 5px;
 }
+
+/* Estilos para el menú de navegación */
+.navbar {
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  flex: 1;
+}
+
+.navbar a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
