@@ -1,6 +1,13 @@
+/* Estilos generales */
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
   padding: 20px;
 }
 
@@ -10,35 +17,51 @@ h1 {
   margin-bottom: 10px;
 }
 
-p {
+h2 {
   color: #666;
-  font-size: 16px;
-  margin-bottom: 5px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-h2 {
-  color: #555;
-  font-size: 20px;
+p {
+  color: #888;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
 ul {
   list-style-type: none;
-  padding-left: 20px;
+  padding: 0;
+  margin: 0;
 }
 
-li {
-  margin-bottom: 10px;
+/* Estilos específicos */
+#experience li,
+#education li {
+  margin-bottom: 20px;
 }
 
-li h3 {
+#experience h3,
+#education h3 {
   color: #333;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 5px;
 }
 
-li p {
+#experience p,
+#education p {
   color: #666;
   font-size: 16px;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
+}
+
+#skills li {
+  display: inline-block;
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
